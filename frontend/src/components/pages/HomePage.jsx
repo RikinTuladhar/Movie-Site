@@ -3,8 +3,10 @@ import { HomeFirstSection,HomepageCover,NavBar,SideBar,HomeSlider} from "../../e
 const HomePage = () => {
   return (
     <HomepageCover>
+      <div className='relative h-[10vh] z-50 w-full '>
       <NavBar/>
-      <div className='flex w-full  h-[100vh] gap-28 items-center'>
+      </div>
+      <div className='w-full space-x-48 relative h-[auto] '>
           <SideBar/>
           <HomeFirstSection/>
       </div>

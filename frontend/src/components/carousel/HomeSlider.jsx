@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { SliderMovieCards } from "../../exports/componentsExport";
+import "./HomeSlider.css"
 const HomeSlider = () => {
   const responsive = {
     superLargeDesktop: {
@@ -23,9 +24,9 @@ const HomeSlider = () => {
     },
   };
   return (
-    <div className="w-full h-[50vh]">
+    <div className="w-full relative h-[50vh]">
       <Carousel className="w-full h-full" responsive={responsive}>
-        <div className="w-full h-full">
+        <div>
           <SliderMovieCards />
         </div>
         <div>
