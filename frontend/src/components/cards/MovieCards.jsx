@@ -1,17 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const MovieCards = () => {
   return (
     <div className="relative overflow-hidden rounded-lg group">
-      <a className="absolute inset-0 z-10" href="#" rel="ugc">
+      <Link className="absolute inset-0 z-10" href="#" rel="ugc">
         <span className="sr-only">View</span>
-      </a>
+      </Link>
       <img
-        src="/placeholder.svg"
+        src={"/deadpool.jfif"}
         alt="Product Image"
         width="400"
         height="500"
-        className="object-cover w-full h-[300px] md:h-[400px] lg:h-[500px]"
+        className="object-cover w-full h-full"
         style={{aspectRatio: 4/5, objectFit: "cover"}}
       />
       <div className="absolute inset-x-0 bottom-0 px-6 py-4 text-center bg-black/70">
