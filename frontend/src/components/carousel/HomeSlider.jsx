@@ -24,7 +24,7 @@ const HomeSlider = () => {
     },
   };
   return (
-    <div className="w-full relative h-[50vh]">
+    <div className=" w-[90%] md:w-full  relative h-[50vh]">
       <Carousel className="w-full h-full" responsive={responsive}>
         <div>
           <SliderMovieCards />

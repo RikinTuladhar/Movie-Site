@@ -16,7 +16,7 @@ const HomeSecondSection = () => {
   ])
   return (
     <div className='w-full h-auto px-10'>
-      <h1 className='text-3xl font-bold'>Recommendation</h1>
+      <h1 className='text-2xl font-bold md:text-3xl'>Recommendation</h1>
      <div className='grid items-center w-full grid-cols-4 px-5 py-10 gap-y-10 gap-x-5 justify-items-center '>
      {datas.map((data,i)=>(
        <MovieCards key={i} data={data}/>

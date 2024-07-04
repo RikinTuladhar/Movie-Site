@@ -5,7 +5,7 @@ import { PiTelevisionLight } from "react-icons/pi";
 import { GiHamburgerMenu } from "react-icons/gi";
 const SideBar = () => {
   return (
-    <div className='w-[8%] fixed left-0 z-50 h-full justify-start gap-10 items-center py-10 text-white flex flex-col  bg-secondary'>
+    <div className='w-[15%]  py-10 md:w-[8%] fixed left-0 z-50 h-full justify-start gap-10 items-center  md:py-10 text-white flex flex-col  bg-secondary'>
         <h1 className='text-white'><GiHamburgerMenu  className='w-[50px] h-[30px]' /></h1>
       <div className=''><IoHomeOutline  className='w-[100px] h-[30px]'/></div>
       <div><CiYoutube  className='w-[100px] h-[30px]' /></div>
